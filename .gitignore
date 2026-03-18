@@ -1,0 +1,14 @@
+# Terraform State & Secrets
+**/.terraform/
+**/.terraform.lock.hcl
+**/*.tfstate
+**/*.tfstate.backup
+**/terraform.tfvars
+
+# Python Secrets & Caches
+**/.env
+**/__pycache__/
+**/*.zip
+
+# OS Files
+.DS_Store
